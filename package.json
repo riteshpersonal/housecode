@@ -1,0 +1,41 @@
+{
+  "name": "house8up",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -w server.js server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js ",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "house8up": "file:",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.7.1",
+    "next": "14.2.13",
+    "nodemon": "^3.1.7",
+    "rc-slider": "^11.1.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-intersection-observer": "^9.13.1",
+    "react-select": "^5.8.2",
+    "sonner": "^1.5.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
